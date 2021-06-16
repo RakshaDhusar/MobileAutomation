@@ -61,6 +61,7 @@ public class MovieTicket {
 			  driver.findElementByXPath("//*[@resource-id='com.net.pvr:id/allReadyAMemberTextView']").click();
 			  driver.findElementByXPath("//*[@resource-id='com.net.pvr:id/continueBtn']").click();
 			  
+			 //2nd Case
 			  driver.findElementByXPath("//*[@resource-id='com.net.pvr:id/skipTextView']").click(); 
 			 driver.findElementByXPath("//*[@resource-id='com.net.pvr:id/noThanksTextView']").click(); 
 			  
@@ -70,11 +71,6 @@ public class MovieTicket {
 			  driver.findElementByXPath("//*[@resource-id='com.net.pvr:id/NonPvr_knowmore']").click();
 			  
 			  driver.findElementByXPath("//*[@resource-id='com.net.pvr:id/offerImg']").click();
-			  
-			  
-			  
-		
-	        
 			
 			driver.quit();
 			
